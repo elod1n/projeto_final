@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/fundo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#main {
+    background-image: none;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.background-rotated {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/text_background.jpg");
+    background-size: 1090p auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+
+#header {
+    text-align: center;
+    padding: 20px;
+}
+
+#logo {
+    max-width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+#menu {
+    text-align: center;
+    padding: 20px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+#menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu ul li:last-child {
+    margin-right: 0;
+}
+
+#menu ul li a {
+    background-color: black; 
+    color: white; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+.section {
+    text-align: center;
+    padding: 40px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+}
+
+.text-section {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    display: inline-block;
+}
+
+.video-section {
+    text-align: center;
+    padding: 40px;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
